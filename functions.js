@@ -1,0 +1,1 @@
+// Javascript file in which all the functions will be written
