@@ -1,1 +1,23 @@
 /* Styling file */
+/*#86576B
+#DBCFD1
+#8A7C9D
+#F6E9DA
+#D0D7E4*/
+
+.ar-past-container{
+    background-color:#8A7C9D ;
+}
+/* parents div element class */
+.ar-parent-conatiner .er-parent-container .ir-parent-container{
+    /* Sets grid layout */
+    display: flex;
+}
+
+.ar-present-container .er-present-container .ir-present-container{
+    flex: 1;
+}
+
+.ar-past-container .er-past-container .ir-past-container{
+    flex: 1;
+}
