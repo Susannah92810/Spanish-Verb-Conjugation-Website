@@ -5,19 +5,148 @@
 #F6E9DA
 #D0D7E4*/
 
-.ar-past-container{
-    background-color:#8A7C9D ;
+
+p {
+    color: #F6E9DA;
 }
+
+li {
+    color: #F6E9DA;
+}
+
+html {
+    background-color: #D0D7E4;
+}
+
+h2 {
+    color: #F6E9DA;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+/* Navigation class */
+.navigation {
+    /* makes the navigation bar stay at the bottom right of the page */
+    position: fixed;
+    bottom:0;
+    right: 0;
+}
+
+/* Navigation links class */
+.nav-links {
+    /* links in center */
+    justify-content: center;
+    /* rounds out elements */
+    border-radius: 10px;
+    /* no bullet point */
+    list-style-type: none;
+    /* margin at 0 */
+    margin: 0;
+    /* padding at 0 */
+    padding: 0;
+    /* set background color */
+    background-color: #F6E9DA;
+    /* makes a grid layout */
+    display: flex;
+}
+
+/* All links in list items in the navigation links class */
+.nav-links li a {
+    /* each item is a block visually */
+    display: block;
+    /* assigns color */
+    color: navy;
+    padding: 16px;
+    /* gets rid of link underline */
+    text-decoration: none;
+}
+
+/* All links in list items in the navigation links class when 
+cursor is hovering over */
+.nav-links li a:hover {
+    background-color: #D0D7E4;
+}
+
+/* Last list item in navigation links class */
+.nav-links li:last-child {
+    /* No border for last item */
+    border-right: none;
+}
+
+.instructions {
+    background-color: #8A7C9D;
+    border-radius: 10px;
+}
+
 /* parents div element class */
-.ar-parent-conatiner .er-parent-container .ir-parent-container{
+#ar-parent-container {
     /* Sets grid layout */
     display: flex;
 }
 
-.ar-present-container .er-present-container .ir-present-container{
+#ar-past-container {
+    background-color: #86576B;
+    border-radius: 10px;
+    width: 40%;
+    height: 250px;
+    margin: 20px;
     flex: 1;
 }
 
-.ar-past-container .er-past-container .ir-past-container{
+#ar-present-container {
+    background-color: #8A7C9D;
+    border-radius: 10px;
+    width: 40%;
+    height: 250px;
+    margin: 20px;
+    flex: 1;
+}
+
+#er-parent-container {
+    /* Sets grid layout */
+    display: flex;
+}
+
+#er-past-container {
+    background-color: #86576B;
+    border-radius: 10px;
+    width: 40%;
+    height: 250px;
+    margin: 20px;
+    flex: 1;
+}
+
+#er-present-container {
+    background-color: #8A7C9D;
+    border-radius: 10px;
+    width: 40%;
+    height: 250px;
+    margin: 20px;
+    flex: 1;
+}
+
+#ir-parent-container {
+    /* Sets grid layout */
+    display: flex;
+}
+
+#ir-past-container {
+    background-color: #86576B;
+    border-radius: 10px;
+    width: 40%;
+    height: 250px;
+    margin: 20px;
+    flex: 1;
+}
+
+#ir-present-container {
+    background-color: #8A7C9D;
+    border-radius: 10px;
+    width: 40%;
+    height: 250px;
+    margin: 20px;
     flex: 1;
 }
