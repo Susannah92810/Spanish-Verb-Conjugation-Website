@@ -6,6 +6,10 @@
 #D0D7E4*/
 
 
+body {
+    line-height: 2;
+}
+
 p {
     color: #F6E9DA;
 }
@@ -31,7 +35,7 @@ h1 {
 .navigation {
     /* makes the navigation bar stay at the bottom right of the page */
     position: fixed;
-    bottom:0;
+    bottom: 0;
     right: 0;
 }
 
@@ -77,6 +81,7 @@ cursor is hovering over */
 }
 
 .instructions {
+    border: 2px solid black;
     background-color: #8A7C9D;
     border-radius: 10px;
 }
@@ -89,18 +94,20 @@ cursor is hovering over */
 
 #ar-past-container {
     background-color: #86576B;
+    border: 2px solid black;
     border-radius: 10px;
     width: 40%;
-    height: 250px;
+    height: 350px;
     margin: 20px;
     flex: 1;
 }
 
 #ar-present-container {
     background-color: #8A7C9D;
+    border: 2px solid black;
     border-radius: 10px;
     width: 40%;
-    height: 250px;
+    height: 350px;
     margin: 20px;
     flex: 1;
 }
@@ -112,18 +119,20 @@ cursor is hovering over */
 
 #er-past-container {
     background-color: #86576B;
+    border: 2px solid black;
     border-radius: 10px;
     width: 40%;
-    height: 250px;
+    height: 350px;
     margin: 20px;
     flex: 1;
 }
 
 #er-present-container {
     background-color: #8A7C9D;
+    border: 2px solid black;
     border-radius: 10px;
     width: 40%;
-    height: 250px;
+    height: 350px;
     margin: 20px;
     flex: 1;
 }
@@ -135,18 +144,43 @@ cursor is hovering over */
 
 #ir-past-container {
     background-color: #86576B;
+    border: 2px solid black;
     border-radius: 10px;
     width: 40%;
-    height: 250px;
+    height: 350px;
     margin: 20px;
     flex: 1;
 }
 
 #ir-present-container {
     background-color: #8A7C9D;
+    border: 2px solid black;
     border-radius: 10px;
     width: 40%;
-    height: 250px;
+    height: 350px;
+    margin: 20px;
+    flex: 1;
+}
+
+#all-parent-container {
+ display: flex;
+}
+
+#student-container {
+    background-color: #86576B;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40%;
+    height: 520px;
+    margin: 20px;
+    flex: 1;
+}
+#answer-container{
+    background-color: #8A7C9D;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40%;
+    height: 350px;
     margin: 20px;
     flex: 1;
 }

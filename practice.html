@@ -17,7 +17,40 @@
             </ul>
     </nav>
     <h1>Practice!</h1>
-    <div id = "all-parent-container"></div>
+    <div id = "all-parent-container">
+    <div id = "student-container">
+        <h3>What verb do you want to pratice?</h3>
+        <p>What type of verb is it?</p>
+        <label>Ar</label><input type = "radio" id ="Ar-type-practice" name = "conjugation"></label>
+        <label>Er</label><input type = "radio" id = "Er-type-practice" name="conjugation"></label>
+        <label>Ir</label><input type = "radio" id ="Ir-type-practice" name="conjugation"></label>
+        <p>What tense would you like to practice?</p>
+        <label>Past</label><input type = "radio" id ="past-practice" name="type"></label>
+        <label>Present</label><input type = "radio" id ="present-practice" name="type"></label>
+        <ul id = "practice-list">
+            <li id ="practice-infinitive">Infinitive: <input id = "practice-infi-input"></li>
+            <li id = "practice-yo">Yo: <input id = "practice-yo-input"> </li>
+            <li id="practice-tú">Tú: <input id = "practice-tú-input"></li>
+            <li id="practice-él">èl/ella/usted: <input id = "practice-él-input"></li>
+            <li id="practice-nos">Nosotros/Nosotras: <input id = "practice-nos-input"></li>
+            <li id="practice-vos">Vosotros/Vosotras: <input id = "practice-vos-input"></li>
+            <li id="practice-ellos">Ellos/Ellas/Ustedes: <input id = "practice-ellos-input"></li>
+        </ul>
+        
+    </div>
+    <div id = "answer-container">
+        <h3>Check You answers!</h3>
+        <button>Show Answers</button>
+            <ul id = "show-list">
+            <li id = "practice-yo">Yo:  </li>
+            <li id="practice-tú">Tú: </li>
+            <li id="practice-él">èl/ella/usted: </li>
+            <li id="practice-nos">Nosotros/Nosotras: </li>
+            <li id="practice-vos">Vosotros/Vosotras: </li>
+            <li id="practice-ellos">Ellos/Ellas/Ustedes: </li>
+        </ul>
+    </div>
+    </div>
     
 </body>
 </html>
